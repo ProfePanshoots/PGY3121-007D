@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Inicio del navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Chapters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Characters</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Login</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#myModal">Sign in</a></li>
+                            <li><a class="dropdown-item" href="#">Create Account</a></li>
+                            <li><a class="dropdown-item" href="#">Logout out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fin del navbar -->
+    <!-- Inicio Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://via.placeholder.com/1200x400" alt="Los Angeles" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/1200x400" alt="Chicago" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/1200x400" alt="New York" class="d-block w-100">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!-- Fin Carousel -->
+    <div class="p-5 bg-dark text-white text-center">
+        <h1>Jumbotron Example</h1>
+        <p>Lorem ipsum...</p>
+    </div>
+
+    <!-- Inicio contenido -->
+    <div class="container">
+        <section id="capitulos">
+            <div class="row">
+                <h2 class="text-center my-5">Capítulos</h2>
+                <div class="col-md-4 col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/300" alt="">
+                        <div class="card-body">
+                            <h4>Capítulo 1</h4>
+                            <p>Descripción del cap......</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/300" alt="">
+                        <div class="card-body">
+                            <h4>Capítulo 2</h4>
+                            <p>Descripción del cap......</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/300" alt="">
+                        <div class="card-body">
+                            <h4>Capítulo 3</h4>
+                            <p>Descripción del cap......</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="pagination justify-content-center" style="margin:20px 0">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </div>
+        </section>
+        <hr />
+        <section class="mb-5" id="personajes">
+            <div class="row">
+                <h2 class="text-center my-5">Personajes</h2>
+                <div class="col-md-4 col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/300" alt="">
+                        <div class="card-body">
+                            <h4>Capítulo 1</h4>
+                            <p>Descripción del cap......</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/300" alt="">
+                        <div class="card-body">
+                            <h4>Capítulo 2</h4>
+                            <p>Descripción del cap......</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/300" alt="">
+                        <div class="card-body">
+                            <h4>Capítulo 3</h4>
+                            <p>Descripción del cap......</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section id="shanks">
+            <div class="row">
+                <h2 class="text-center my-5">Shanks</h2>
+                <div class="col-sm-12">
+                    <img class="img-fluid d-block mx-auto" src="https://via.placeholder.com/1200x300" alt="">
+                    <p class="m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ad quisquam earum
+                        excepturi, vero facilis dolores ab repellendus, corporis sed officia aliquam facere soluta
+                        repellat dicta unde architecto! Alias explicabo itaque repellat, officiis officia magnam. Saepe
+                        quos quidem eius consequuntur hic consequatur quisquam, perferendis, natus voluptas debitis
+                        ipsam explicabo. Odit non libero facere adipisci hic quos quam iste. Dignissimos neque velit
+                        aspernatur at consectetur rem? Rem, earum. Saepe velit possimus dicta earum! Officia autem
+                        doloremque labore sapiente perferendis. Suscipit, distinctio commodi facere impedit fugiat
+                        explicabo aut. Ipsa placeat facere nesciunt, repellendus numquam, reiciendis sit vel voluptates
+                        ex sed velit? Porro, cupiditate exercitationem velit voluptates magni sed quidem qui voluptatum
+                        ipsa. Dolore nisi voluptas eligendi ad corporis? Nisi, et sit optio repudiandae quos ipsa
+                        molestias dignissimos ad ut autem, quam sapiente eius delectus architecto tenetur aspernatur.
+                        Hic mollitia doloribus pariatur nemo illum aut itaque sequi molestias, aperiam inventore fuga
+                        nostrum adipisci et tempora sunt esse rem. Qui inventore, ratione minima quam quisquam debitis
+                        quos dolorem expedita maxime alias officia omnis assumenda numquam quae nihil est temporibus
+                        nemo veritatis explicabo sit eveniet magni deserunt vero! Dolorum dolorem harum nam quod
+                        inventore obcaecati beatae. Ducimus suscipit, facilis libero molestiae quos rem nulla aliquid
+                        quidem maiores sunt consectetur harum minima fugit. Quis quisquam rerum sapiente, unde
+                        doloremque quasi neque quas quae dignissimos, ad magnam nisi! Velit iure eaque itaque beatae
+                        dolor natus architecto vel sapiente nam. Perspiciatis recusandae distinctio blanditiis rerum
+                        dolore enim magni, est totam sunt veritatis pariatur dolorum aliquam asperiores. Officiis
+                        repellat molestias ipsum repudiandae aperiam praesentium quaerat eveniet cumque dignissimos
+                        illum quis, odit accusamus, quo quod voluptatem earum hic error harum mollitia optio iste
+                        blanditiis. Quibusdam magnam, possimus ut provident ex deleniti quas natus odio eveniet
+                        incidunt. Sint doloremque nesciunt, quod consequatur adipisci voluptate, recusandae, maiores
+                        facere fuga expedita quaerat iure.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Fin contenido -->
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form >
+                        <div class="mb-3 mt-3">
+                          <label for="email" class="form-label">Email:</label>
+                          <input type="email" class="form-control" id="txtEmail" placeholder="Enter email" name="txtEmail">
+                        </div>
+                        <div class="mb-3">
+                          <label for="pwd" class="form-label">Password:</label>
+                          <input type="password" class="form-control" id="txtPass" placeholder="Enter password" name="txtPass">
+                        </div>
+                        <div class="form-check mb-3">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                          </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

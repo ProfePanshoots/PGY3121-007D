@@ -1,0 +1,45 @@
+/* ETIQUETAS */
+body {
+    background-color: rgb(12, 116, 12);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+/* ID */
+#titulo {
+    color: white;
+    text-align: center;
+}
+
+#formulario {
+    width: max-content;
+    margin: auto;
+}
+
+/* CLASES */
+.navbar {
+    background-color: black;
+    width: 100%;
+    overflow: auto;
+}
+
+.navbar a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: grey;
+}
+
